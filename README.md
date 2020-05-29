@@ -1,6 +1,6 @@
 # MONSTER Tulpar T7 V20.1  | Intel® Core™ i7 serisi (9th)
 
-[![release](https://img.shields.io/badge/indir-son%20sürüm-blue.svg)]() [![wiki](https://img.shields.io/badge/destek-iCloud-9cf.svg)](#i̇letişime-geçin)
+[![release](https://img.shields.io/badge/indir-son%20sürüm-blue.svg)](https://github.com/sutsurup/MONSTER-Hackintosh/releases) [![wiki](https://img.shields.io/badge/destek-iCloud-9cf.svg)](#i̇letişime-geçin)
 
 Türkçe | [English](README_EN.md)
 
@@ -59,6 +59,11 @@ macOS High Sierra 10.13.6 veya Mojave 10.14.6 sürümlerinde çalıştırmayı d
 
         Ekran görüntüsünde gözüktüğü gibi seçimleri tamamlayın, "Get the latest config" butonuna basın.
         Ben macOS uygulamasını kullandım, siz dilerseniz Windows versiyonunu indirebilirsiniz.
+	
+        Önemli!
+        SerialNumber, MotherBoard SerialNumber ve System UDID numaraları rastgele oluşturulmuştur.
+        Bu bilgileri mutlaka, kurulum sonrasında;
+        Bu rehberdeki "Kurulum sonrası" bölümünün ilk maddesinde anlatıldığı gibi değiştirin!
 
 # macOS Yükleme Talimatları
 
