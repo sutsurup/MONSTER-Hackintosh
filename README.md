@@ -88,9 +88,9 @@ $ Destek almak için paylaştığım mail adresinden bana ulaşabilirsiniz.
 ``` 
 
 # Kurulum sonrası yararlanabileğiniz rehber/araçlar (Isteğe bağlı)
-* önerilir: iCloud'a giriş yapacaksanız veya iMessage, FaceTime kullanmak istiyorsanız, bu rehberi harfiyen uygulayın: [Hackintosh Cihazlarda iMessage Etkinleştirmek](https://osxinfo.net/konu/hackintosh-cihazlarda-imessage-etkinlestirmek.84)
-* [Clover Configurator](https://mackie100projects.altervista.org/download-clover-configurator/)
-* Hackintool ([Forum thread](https://www.insanelymac.com/forum/topic/335018-hackintool-v286/) | [Direkt indirme linki](http://headsoft.com.au/download/mac/Hackintool.zip))
+* önerilir: iCloud'a giriş yapacaksanız veya iMessage, FaceTime kullanmak istiyorsanız, bu rehberi harfiyen uygulayın: [Hackintosh Cihazlarda iMessage Etkinleştirmek](https://osxinfo.net/konu/hackintosh-cihazlarda-imessage-etkinlestirmek.84) (Bu rehberde Clover Configurator gösterilmiş, siz OpenCore Configurator kullanacaksınız, Clover Configurator üzerinden takip edin, verileri OpenCore Configurator aracılığıyla config.plist dosyanıza girin)
+* [OpenCore Configurator](https://mackie100projects.altervista.org/download-opencore-configurator/) (config.plist düzenlemek için)
+* Hackintool ([Forum thread](https://www.insanelymac.com/forum/topic/335018-hackintool-v286/) | [Direkt indirme linki](http://headsoft.com.au/download/mac/Hackintool.zip)) (Detaylı sistem bilgileri öğrenme ve düzenlemeleri için)
 * Kext Updater ([Indir](https://bitbucket.org/profdrluigi/kextupdater/downloads/) | [Forum](https://www.hackintosh-forum.de/forum/thread/32621-kext-updater-neue-version-3-x/) {Alman})
 * Sistemde HDD kullanacaksanız ve kurulumda görmüyorsa belirteceğim yamaları kullanmalısınız. HDD kullanmayacaksanız bu maddeyi uygulamayın.
 <details>
