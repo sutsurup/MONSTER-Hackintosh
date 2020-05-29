@@ -17,7 +17,7 @@ Türkçe | [English](README_EN.md)
     Tarih:        Mayıs 27, 2020
     Durum:        Stabil
     Destek:       BIOS (N.1.04)
-    Yapı:         OpenCore Bootloader (+ACPI hotpatch [RehabMan]) kullanılarak, kirainmoe tarafından Tulpar T7 V20.1 cihaza uyarlanmıştır
+    Yapı:         OpenCore Bootloader (+ACPI hotpatch [RehabMan]) kullanılarak, kirainmoe dosyaları ile sutsurup  tarafından Tulpar T7 V20.1 cihaza uygulanmıştır
 
 ## Donanım
 
@@ -64,6 +64,15 @@ macOS High Sierra 10.13.6 veya Mojave 10.14.6 sürümlerinde çalıştırmayı d
         SerialNumber, MotherBoard SerialNumber ve System UDID numaraları rastgele oluşturulmuştur.
         Bu bilgileri mutlaka, kurulum sonrasında;
         Bu rehberdeki "Kurulum sonrası" bölümünün ilk maddesinde anlatıldığı gibi değiştirin!
+
+### HDD kullanacaklar için
+
+1. macOS'i HDD üzerine kuracaksanız ve kurulum aşamasında HDD diskiniz görünmüyorsa:
+
+	- [issues](https://github.com/sutsurup/MONSTER-Hackintosh/issues) üzerinden destek bileti açın
+	- Güncel kirainmoe dosyalarına desteklenmeyen HDD diskler için yama yapılması gerekiyor, yardımcı olmaya çalışırım
+
+2. Sistemde depolama amacıyla HDD kullanacaksanız ve kurulum sırasında HDD diskiniz görünmediyse, kurulumu tamamladıktan sonra rehberdeki "Kurulum sonrası" bölümünün son maddesini uygulayın
 
 # macOS Yükleme Talimatları
 
