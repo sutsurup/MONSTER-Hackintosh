@@ -125,27 +125,10 @@ Kext dosyalarını config.plist dosyamıza da tanıtmış olduk, kaydedin ve ç�
 </details>
 
 # Wi-Fi nasıl kullanırım?
-Tulpar T7 V20.1 sistemiyle yerleşik gelen Intel Wireless-AC 9560 Wireless kartı Apple tarafından **deskteklenmediğinden dolayı,** bu kartı değiştirmeniz gerekiyor. Peki bu konuda ne yapabiliriz?
+Hackintosh işlemleriyle uğraşan bir ekip, [OpenIntelWireless](https://github.com/OpenIntelWireless) adında bir proje yaptılar. Bu projenin amacı Intel Wireless kartlarını sisteme tanıtmak. Şu anda tam kararlı bir şekilde belirli Intel marka Wireless kartları Hackintosh sistemlerde çalışmaktadır.
+Bu listeye ulaşmak için [bu bağlantıyı](https://openintelwireless.github.io/itlwm/Compat.html) kullanabilirsiniz. Bağlantıda Hackintosh uyumluluğu olan Intel Wireless kartları yazmaktadır. Tulpar V20.1 olan bu sistemin de kartı destekleniyor. EFI klasörünü üreten aracın sahibi Kirainmoe, bu modele özel OpenIntelWireless (itlwm.kext ve Bluetooth) kextlerini EFI klasöründe halihazırda vermiş. Güncel EFI klasörünüzü araç yardımıyla indirin, gerekli dizine yükleyin. Herhangi bir ayar yapmanıza gerek yoktur.
 
-1. Anakart Mini PCI-e kartları desteklemektedir. Bu sebeple Mini PCI-e kartlara yönelmelisiniz.
-2. Bluetooth ve beraberinde AirDrop gibi macOS fonksiyonların çalışmasını istiyorsanız, +Bluetooth destekleyen kartları tercih edin.
-3. Kablosuz USB Adaptör satın alabilirsiniz. Ben şu anda [ASUS Kablosuz N150 USB Nano Adaptör](https://www.asus.com/tr/Networking/USBN10_NANO) kullanmaktayım.
-
-## Kablosuz USB Adaptörleri sisteme nasıl tanıtabilirsiniz?
-
-Paylaşacağım kurulum dosyasının çalıştırdığı Kablosuz USB Adaptörler burada listelenmiştir:
-[chris1111/Wireless-USB-Adapter-Clover](https://github.com/chris1111/Wireless-USB-Adapter-Clover)
-
-1. Yayınlanan son sürümü buradan: [Wireless-USB-Adapter-Clover/Releases](https://github.com/chris1111/Wireless-USB-Adapter-Clover/releases), veya direk bu linke tıklayarak indirebilirsiniz. [Wireless-USB-Adapter-Clover/V14.zip](https://github.com/chris1111/Wireless-USB-Adapter-Clover/files/4301774/Wireless.USB.Adapter.Clover-V14.zip)  
-2. Kurulum dosyasını indirikten sonra kurulumu tamamlayın  
-3. Cihazı yeniden başlatın 
-```
-$ ASUS Kablosuz N150 USB Nano Adaptör için orijinal ASUS yazılım dosyası aşağıdadır:  
-```  
-1. [USB-N10 NANO // Sürücüler & Araçlar](https://www.asus.com/tr/Networking/USBN10_NANO/HelpDesk_Download/) 
-2. Alternatif olarak, repo içerisinde "Wi-Fi Fix" klasöründe paylaştığım PKG dosyasını da yükleyebilirsiniz.
-
-> Son bahsettiğim PKG dosyasını paylaşmamın asıl sebebi; Diğer bahsettiğim chris1111 ve ASUS orijinal kurulum dosyalarına nazaran sinyal göstergesinin çalışmasıdır. Diğerlerinde durum çubuğunda sembolik bir (sabit) Wi-Fi ikonu bulunur, sinyal çekim gücünü ancak listeye girince görebilirsiniz fakat "Wi-Fi Fix" klasöründeki kurulum dosyasıyla birlikte gelen durum çubuğundaki Wireless çekim gücü ikonu hareketlidir, çekim gücünü net gösterir.
+Sadece Wi-Fi arayüzüne ulaşabilmek için HeliPort adında bir uygulama yüklemeniz gerekiyor. HeliPort uygulamasını [bu adreste](https://github.com/OpenIntelWireless/HeliPort/releases) "Assets" bölümünden indirebilirsiniz. HeliPort.dmg içerisindeki uygulamayı, uygulamalar klasörüne sürükleyin. Bu uygulamayı açtığınızda üst çubukta Wireless ikonunu göreceksiniz. Ayrıca Sistem Tercihleri > Kullanıcılar ve Gruplar > Oturum Açma Öğeleri sekmesine tıklayarak +'ya basıp HeliPort uygulamasını seçin. (Aynı işlem [burada da anlatılmış](http://www.nasilyapilir.com.tr/mac-os-baslangic-programlari-nasil-degistirilir-kapatilir.html)) Bu sayede sistem her açıldığında HeliPort uygulaması açılır ve üst çubuktaki Wireless alanı aktif olur.
 
 ## İletişime geçin
 Website: https://veysel.me //
