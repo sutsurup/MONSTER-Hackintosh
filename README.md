@@ -131,8 +131,8 @@ Bu listeye ulaşmak için [bu bağlantıyı](https://openintelwireless.github.io
 Sadece Wi-Fi arayüzüne ulaşabilmek için HeliPort adında bir uygulama yüklemeniz gerekiyor. HeliPort uygulamasını [bu adreste](https://github.com/OpenIntelWireless/HeliPort/releases) "Assets" bölümünden indirebilirsiniz. HeliPort.dmg içerisindeki uygulamayı, uygulamalar klasörüne sürükleyin. Bu uygulamayı açtığınızda üst çubukta Wireless ikonunu göreceksiniz. Ayrıca Sistem Tercihleri > Kullanıcılar ve Gruplar > Oturum Açma Öğeleri sekmesine tıklayarak +'ya basıp HeliPort uygulamasını seçin. (Aynı işlem [burada da anlatılmış](http://www.nasilyapilir.com.tr/mac-os-baslangic-programlari-nasil-degistirilir-kapatilir.html)) Bu sayede sistem her açıldığında HeliPort uygulaması açılır ve üst çubuktaki Wireless alanı aktif olur.
 
 ## İletişime geçin
-Website: https://veysel.me //
-Mail: [veyselfurkan@icloud.com](mailto:veyselfurkan@icloud.com)
+Website: https://sutsurup.com //
+Mail: [contac@sutsurup.com](contact@sutsurup.com)
 
 ## Diğer bağlantılar
 - [MONSTER Resim Websitesi](https://www.monsternotebook.com.tr)
