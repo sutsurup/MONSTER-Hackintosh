@@ -1,12 +1,24 @@
-# MONSTER Tulpar T7 V20.1  | Intel® Core™ i7 serisi (9th)
+# MONSTER Tulpar T7 V20.1  | Intel i7 (9. Nesil)
 
-[![release](https://img.shields.io/badge/indir-son%20sürüm-blue.svg)](https://github.com/sutsurup/MONSTER-Hackintosh/releases) [![wiki](https://img.shields.io/badge/destek-iCloud-9cf.svg)](#i̇letişime-geçin)
+[![macOS](https://img.shields.io/badge/macOS-10.15.7-orange)](https://www.apple.com/tr/macos/big-sur/)
+[![OpenCore](https://img.shields.io/badge/OpenCore-0.6.3-9cf)](https://github.com/acidanthera/OpenCorePkg)
+[![release](https://img.shields.io/badge/indir-son%20sürüm-blue.svg)](https://github.com/sutsurup/MONSTER-Hackintosh/releases)
 
-Türkçe | [English](README_EN.md)
+<img align="right" src="Images/logo.png" alt="Monster" width="200">
 
-**Bu rehberi takip ederek, [kirainmoe](https://github.com/kirainmoe) tarafından düzenlemiş OpenCore Bootloader ile Monster Tulpar T7 V20.1 cihazınızda macOS çalıştırmanız mümkün - macOS 10.15.4 sürümünde test edilmiştir**
+Türkçe | [English](https://github.com/sutsurup/MSI-Hackintosh-Build/blob/main/README_EN.md)
 
-**Farklı model bir Monster cihazınız varsa ve *"Barebone" numarası da tutarsa*, bu rehberi uygulayabilirsiniz. Rehberin son bölümünde nasıl kontrol edeceğinizi belirttim.**
+**macOS Versiyonu: 10.15.7**
+
+**OpenCore Versiyonu: 0.6.5**
+
+Bu OpenCore Hackintosh yapısı [kirainmoe](https://github.com/kirainmoe) tarafından yapılmıştır.
+
+Yardımcı olabilecek kaynaklar: 
+
+- [OpenCore Yükleme Rehberi](https://dortania.github.io/OpenCore-Install-Guide)
+- **Farklı model bir Monster cihazınız varsa ve *"Barebone" numarası da tutarsa*, bu rehberi uygulayabilirsiniz. Rehberin son bölümünde nasıl kontrol edeceğinizi belirttim.**
+- 10th nesil notebooklar henüz desteklenmemektedir!
 
 
 
@@ -17,7 +29,7 @@ Türkçe | [English](README_EN.md)
     Tarih:        Mayıs 27, 2020
     Durum:        Stabil
     Destek:       BIOS (N.1.04)
-    Yapı:         OpenCore Bootloader (+ACPI hotpatch [RehabMan]) kullanılarak, kirainmoe dosyaları ile sutsurup  tarafından Tulpar T7 V20.1 cihaza uygulanmıştır
+    Yapı:         OpenCore
 
 ## Donanım
 
@@ -97,10 +109,10 @@ $ Destek almak için paylaştığım mail adresinden bana ulaşabilirsiniz.
 ``` 
 
 # Kurulum sonrası yararlanabileğiniz rehber/araçlar (Isteğe bağlı)
-* önerilir: iCloud'a giriş yapacaksanız veya iMessage, FaceTime kullanmak istiyorsanız, bu rehberi harfiyen uygulayın: [Hackintosh Cihazlarda iMessage Etkinleştirmek](https://osxinfo.net/konu/hackintosh-cihazlarda-imessage-etkinlestirmek.84) (Bu rehberde Clover Configurator gösterilmiş, siz OpenCore Configurator kullanacaksınız, Clover Configurator üzerinden takip edin, verileri OpenCore Configurator aracılığıyla config.plist dosyanıza girin)
-* [OpenCore Configurator](https://mackie100projects.altervista.org/download-opencore-configurator/) (config.plist düzenlemek için)
+* önerilir: iCloud'a giriş yapacaksanız veya iMessage, FaceTime kullanmak istiyorsanız, bu rehberi harfiyen uygulayın: [OpenCore ile iMessage ve Apple Servislerini Aktif Etmek](https://osxinfo.net/konu/opencore-ile-imessage-ve-apple-servislerini-aktif-etmek.16297/) (Bu rehberde Clover Configurator gösterilmiş, siz OpenCore Configurator kullanacaksınız, Clover Configurator üzerinden takip edin, verileri OpenCore Configurator aracılığıyla config.plist dosyanıza girin)
+* [ProperTree](https://osxinfo.net/konu/propertree-opencore-bootloader-icin-config-duzenleyici.12919/) (config.plist düzenlemek için)
 * Hackintool ([Forum thread](https://www.insanelymac.com/forum/topic/335018-hackintool-v286/) | [Direkt indirme linki](http://headsoft.com.au/download/mac/Hackintool.zip)) (Detaylı sistem bilgileri öğrenme ve düzenlemeleri için)
-* Kext Updater ([Indir](https://bitbucket.org/profdrluigi/kextupdater/downloads/) | [Forum](https://www.hackintosh-forum.de/forum/thread/32621-kext-updater-neue-version-3-x/) {Alman})
+* Hackintool ([Indir](https://github.com/headkaze/Hackintool/releases/tag/3.5.3)
 * Sistemde HDD kullanacaksanız ve kurulumda görmüyorsa belirteceğim yamaları kullanmalısınız. HDD kullanmayacaksanız bu maddeyi uygulamayın.
 <details>
 <summary>HDD Tanıtma Talimatları</summary>
