@@ -6,7 +6,7 @@
 
 <img align="right" src="Images/logo.png" alt="Monster" width="200">
 
-Türkçe | [English](https://github.com/sutsurup/MSI-Hackintosh-Build/blob/main/README_EN.md)
+Türkçe | [English](https://github.com/sutsurup/MONSTER-Hackintosh/blob/master/README_EN.md)
 
 **macOS Versiyonu: 10.15.7**
 
