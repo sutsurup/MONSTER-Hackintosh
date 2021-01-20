@@ -1,7 +1,7 @@
 # MONSTER Tulpar T7 V20.1  | Intel i7 (9. Nesil)
 
 [![macOS](https://img.shields.io/badge/macOS-10.15.7-orange)](https://www.apple.com/tr/macos/big-sur/)
-[![OpenCore](https://img.shields.io/badge/OpenCore-0.6.3-9cf)](https://github.com/acidanthera/OpenCorePkg)
+[![OpenCore](https://img.shields.io/badge/OpenCore-0.6.5-9cf)](https://github.com/acidanthera/OpenCorePkg)
 [![release](https://img.shields.io/badge/indir-son%20sürüm-blue.svg)](https://github.com/sutsurup/MONSTER-Hackintosh/releases)
 
 <img align="right" src="Images/logo.png" alt="Monster" width="200">
@@ -21,15 +21,14 @@ Yardımcı olabilecek kaynaklar:
 - 10th nesil notebooklar henüz desteklenmemektedir!
 
 
-
-![Alt text](Images/Hackintosh.png)
-
 # Detaylar
 
     Tarih:        Mayıs 27, 2020
     Durum:        Stabil
     Destek:       BIOS (N.1.04)
     Yapı:         OpenCore
+
+![Alt text](Images/Hackintosh.png)
 
 ## Donanım
 
@@ -144,7 +143,7 @@ Sadece Wi-Fi arayüzüne ulaşabilmek için HeliPort adında bir uygulama yükle
 
 ## İletişime geçin
 Website: https://sutsurup.com //
-Mail: [contac@sutsurup.com](contact@sutsurup.com)
+Mail: [contact@sutsurup.com](contact@sutsurup.com)
 
 ## Diğer bağlantılar
 - [MONSTER Resim Websitesi](https://www.monsternotebook.com.tr)
