@@ -180,7 +180,7 @@ Projeyi faydalı bulduysanız, kaynak bulma konusunda bana yardımcı olmak içi
 ₿ 1Q8CEMHTuecxPUJpEdpRiG6Bg2GVtzw4bN
 Papara ➜ 1801475764
 ``` 
-<a href='http://sutsurup.com/donate'><img alt='Bağış' src='https://github.com/sutsurup/MSI-Hackintosh-Build/blob/main/Images/donate.png?raw=true' height='360px' width='375px'/></a>
+<a href='https://github.com/sutsurup/sutsurup/blob/main/Donate.md'><img alt='Bağış' src='https://github.com/sutsurup/MSI-Hackintosh-Build/blob/main/Images/donate.png?raw=true' height='360px' width='375px'/></a>
 ```
 QR kodu tarayarak alternatif seçeneklere ulaşabilirsiniz
 ``` 
