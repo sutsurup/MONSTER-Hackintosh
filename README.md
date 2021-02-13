@@ -164,6 +164,8 @@ Bu iki madde harici her şeyi birebir rehberde geçtiği şekilde takip edin
 1. Genellikle Monster cihazların alt tarafına yapıştırılmış barkod tarzı sticker'larda GK7CP6RXXXXXXXXXX tarzı bir numara bulunur. Bu numaranın başındaki harfler genelde GK, GJ, GI tarzında olur.
 2. GK7CP6RXXXXXXXXXX numarasındaki sadece ilk 7 haneyi baz alın.
 
+Güncel bilgilere bu bağlantıdan ulaşabilirsiniz: https://osxinfo.net/konu/monster-cihazlar-icin-efi-kurulum-paketleri-8-9-nesil.20019
+
 ## Ekran Görüntüleri
 <details>
 <summary>Catalina</summary>
@@ -171,6 +173,11 @@ Bu iki madde harici her şeyi birebir rehberde geçtiği şekilde takip edin
 ![](Screenshots/Catalina.png)
 
 </details>
+
+### Destek olmak için
+Bu projeyi faydalı bulduysanız, destek olmak için bağış yapabilirsiniz:
+**₿itcoin: 1Q8CEMHTuecxPUJpEdpRiG6Bg2GVtzw4bN**
+<a href='http://sutsurup.com/donate'><img alt='Donate' src='https://github.com/sutsurup/MSI-Hackintosh-Build/blob/main/Images/donate.png?raw=true' height='360px' width='375px'/></a>
 
 ### Teşekkürler:
 **Yume Maruyama (kirainmoe)**, **RehabMan** (ACPI hotpatch), **LeeBinder** (README.md örnekleri) ve **Hackintosh** sistemlere destek veren birçok kişiye...
