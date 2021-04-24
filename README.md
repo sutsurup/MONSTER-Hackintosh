@@ -143,7 +143,7 @@ Sadece Wi-Fi arayüzüne ulaşabilmek için HeliPort adında bir uygulama yükle
 
 ## İletişime geçin
 Website: https://sutsurup.com //
-Mail: [contact@sutsurup.com](contact@sutsurup.com)
+Mail: [veyselfurkan@icloud.com](mailto:veyselfurkan@icloud.com)
 
 ## Diğer bağlantılar
 - [MONSTER Resim Websitesi](https://www.monsternotebook.com.tr)
@@ -178,11 +178,10 @@ Güncel bilgilere bu bağlantıdan ulaşabilirsiniz: https://osxinfo.net/konu/mo
 Projeyi faydalı bulduysanız, kaynak bulma konusunda bana yardımcı olmak için bağış yapabilirsiniz:
 ```
 ₿ 1Q8CEMHTuecxPUJpEdpRiG6Bg2GVtzw4bN
-Papara ➜ 1801475764
 ``` 
 <a href='https://github.com/sutsurup/sutsurup/blob/main/Donate.md'><img alt='Bağış' src='https://github.com/sutsurup/MSI-Hackintosh-Build/blob/main/Images/donate.png?raw=true' height='360px' width='375px'/></a>
 ```
-QR kodu tarayarak alternatif seçeneklere ulaşabilirsiniz
+QR koda tıklayarak alternatif seçeneklere ulaşabilirsiniz
 ``` 
 
 ### Teşekkürler:
