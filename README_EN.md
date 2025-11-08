@@ -1,4 +1,3 @@
-````markdown
 # MONSTER Tulpar T7 V20.1  | Intel i7 (9th Gen)
 
 [![macOS](https://img.shields.io/badge/macOS-10.15.7-orange)](https://www.apple.com/tr/macos/big-sur/)
