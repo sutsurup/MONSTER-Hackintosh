@@ -6,7 +6,7 @@
 
 <img align="right" src="Images/logo.png" alt="Monster" width="200">
 
-Türkçe | [English](https://github.com/sutsurup/MONSTER-Hackintosh/blob/master/README_EN.md)
+Türkçe | [English](README_EN.md)
 
 **macOS Versiyonu: 10.15.7**
 
@@ -71,10 +71,9 @@ macOS High Sierra 10.13.6 veya Mojave 10.14.6 sürümlerinde çalıştırmayı d
         Ekran görüntüsünde gözüktüğü gibi seçimleri tamamlayın, "Get the latest config" butonuna basın.
         Ben macOS uygulamasını kullandım, siz dilerseniz Windows versiyonunu indirebilirsiniz.
 	
-        Önemli!
-        SerialNumber, MotherBoard SerialNumber ve System UDID numaraları rastgele oluşturulmuştur.
-        Bu bilgileri mutlaka, kurulum sonrasında;
-        Bu rehberdeki "Kurulum sonrası" bölümünün ilk maddesinde anlatıldığı gibi değiştirin!
+    Önemli!
+    SerialNumber, MotherBoard SerialNumber ve System UDID numaraları rastgele oluşturulmuştur.
+    Bu bilgileri mutlaka kurulum sonrasında, bu rehberdeki "Kurulum sonrası" bölümünün ilk maddesinde anlatıldığı gibi değiştirin!
 
 ### HDD kullanacaklar için
 
@@ -97,15 +96,13 @@ macOS High Sierra 10.13.6 veya Mojave 10.14.6 sürümlerinde çalıştırmayı d
 2. macOS kurulumunu başlatabilmek için USB belleğinize MAC kurulum dosyasını (RAW) Etcher programı yardımıyla yazdırın
 3. Kirainmoe uygulaması tarafından Masaüstünüze çıkarılan TongFang_EFI klasöründe bulunan BOOT ve OC klasörlerini kopyalayın, USB belleğin EFI diskindeki EFI klasörü içerisindeki BOOT ve CLOVER klasörlerini silin, önceden kopyaladığınız BOOT ve OC klasörlerini buraya yapıştırın
 4. Cihazı yeniden başlatın ve başlatma düğmesine basar basmaz F7 tuşuna basın. USB belleği seçerek devam edin ve macOS installer'ı seçin
-5. Toucpad çalışmayabilir - USB Mause kullanabilirsiniz
+5. Touchpad çalışmayabilir - USB mouse kullanabilirsiniz
 6. macOS sistemini Windows yanına kuracaksanız, [bu rehber'de yapıldığı gibi](https://www.youtube.com/watch?v=nvXew__fuQE) Apple HFS diski oluşturmanız gerekiyor. Kurulum aşamasında bu diski seçerek ilerleyeceksiniz.
 5. Cihazda sadece macOS kullanacaksanız, kurulum ekranı geldiğinde "Disk Izlencesi" bölümüne gidin, sol üstteki "Görüntü" yazısının üzerindeki butona basın ve tüm diskleri göster deyin. Bu sayede alt tarafta HDD/SSD donanımınız gözükecek. "Samsung SSD" gibi. Buna tıklayın ve sonrasında sağ tarafta bulunan "Sil" butonuna tıklayın. Biçim olarak "APFS", Düzen olarak "GUID Bölüntü Haritası" seçeceksiniz ve tekrar sil deyin. Işlem tamamlandığı zaman bu pencereyi kapatın ve kuruluma normal şekilde devam edin, yeni oluşturduğunuz APFS diskini seçin. Kurulum bittikten sonra cihaz yeniden başlayacaktır. Son yaptığınız işlemden sonra artık "macOS installer" seçmeyeceksiniz. Yeniden başladığı zaman 4. adımda yaptığınız gibi tekrar USB belleği seçin ve bu sefer yeni oluşturduğunuz APFS diskini seçin.  Bilgisayar her yeniden başladığında, yeni oluşturduğunuz APFS diski seçeceksiniz.  Kurulumun kalan kısmı bittiği zaman sistem kullanıma hazır hale gelecektir.
 
 Sistemi yeni kurduğunuzdan dolayı ilk birkaç açılışta kendi içinde ayarlarını yapmaktadır. Bu sebeple yavaş açılabilir.
 Sabırlı olun.
-```
-$ Destek almak için paylaştığım mail adresinden bana ulaşabilirsiniz.
-``` 
+Destek almak için paylaştığım e-posta adresinden bana ulaşabilirsiniz.
 
 # Kurulum sonrası yararlanabileğiniz rehber/araçlar (Isteğe bağlı)
 * önerilir: iCloud'a giriş yapacaksanız veya iMessage, FaceTime kullanmak istiyorsanız, bu rehberi harfiyen uygulayın: [OpenCore ile iMessage ve Apple Servislerini Aktif Etmek](https://osxinfo.net/konu/opencore-ile-imessage-ve-apple-servislerini-aktif-etmek.16297/) (Bu rehberde Clover Configurator gösterilmiş, siz OpenCore Configurator kullanacaksınız, Clover Configurator üzerinden takip edin, verileri OpenCore Configurator aracılığıyla config.plist dosyanıza girin)
@@ -142,8 +139,7 @@ Bu listeye ulaşmak için [bu bağlantıyı](https://openintelwireless.github.io
 Sadece Wi-Fi arayüzüne ulaşabilmek için HeliPort adında bir uygulama yüklemeniz gerekiyor. HeliPort uygulamasını [bu adreste](https://github.com/OpenIntelWireless/HeliPort/releases) "Assets" bölümünden indirebilirsiniz. HeliPort.dmg içerisindeki uygulamayı, uygulamalar klasörüne sürükleyin. Bu uygulamayı açtığınızda üst çubukta Wireless ikonunu göreceksiniz. Ayrıca Sistem Tercihleri > Kullanıcılar ve Gruplar > Oturum Açma Öğeleri sekmesine tıklayarak +'ya basıp HeliPort uygulamasını seçin. (Aynı işlem [burada da anlatılmış](http://www.nasilyapilir.com.tr/mac-os-baslangic-programlari-nasil-degistirilir-kapatilir.html)) Bu sayede sistem her açıldığında HeliPort uygulaması açılır ve üst çubuktaki Wireless alanı aktif olur.
 
 ## İletişime geçin
-Website: https://sutsurup.com //
-Mail: [veyselfurkan@icloud.com](mailto:veyselfurkan@icloud.com)
+Website: https://sutsurup.tr // Mail: veysel@sutsurup.tr
 
 ## Diğer bağlantılar
 - [MONSTER Resim Websitesi](https://www.monsternotebook.com.tr)
